@@ -1,8 +1,8 @@
 <header>
 	<nav>
-		<div class="logo"></div>
+		<a href="index.php"><div class="logo"><img src="images/labeat.png"></div></a>
 		<ul>
-			<li><a href="#" class="live-nav <?php echo $active_class; ?> ">Live</a></li>
+			<li><a href="live.php" class="live-nav <?php echo $active_class; ?> ">Live</a></li>
 			<li><a href="#" class="about-nav">About</a></li>
 		</ul>
 	</nav>

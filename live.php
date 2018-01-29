@@ -1,39 +1,67 @@
+<?php 
+    $page_title = "live";
+    $active_class = "home-active";
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Template</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
+        <?php include "includes/head.php"; ?>
     </head>
     <body>
     	<?php include "includes/header.php"; ?>
-    	<main>
-    		<div class="event1">
-                <img src="#">
-                <div class="eventInfo"></div>
+
+    	<main class="liveMain">
+            <div class="liveItem1 module">
+                <img src="images/venue1.jpg">
+                <a href="#"><div class="articleInfo">
+                    <h2>Open Mic at Owl Acoustic Lounge</h2>
+                    <p>Mon, Jan 29</p>
+                    <p>Owl Acoustic Lounge</p>
+                </div></a> 
             </div>
-            <div class="event2">
-                <img src="#">
-                <div class="eventInfo"></div>
+            <div class="liveItem2 module">
+                <img src="images/venue3.jpg">
+                <a href="#"><div class="articleInfo">
+                    <h2>Halestorm with Stone Sour and the Dead Deads</h2>
+                    <p>Thu, Feb 1</p>
+                    <p>Enmax Center</p>
+                </div></a> 
             </div>
-            <div class="event3">
-                <img src="#">
-                <div class="eventInfo"></div>
+            <div class="liveItem3 module">
+                <img src="images/venue2.jpg">
+                <a href="#"><div class="articleInfo">
+                    <h2>James Oldenburg and Paul Holden</h2>
+                    <p>Sat, Feb 3</p>
+                    <p> Streatside Eatery</p>
+                </div></a> 
             </div>
-            <div class="event4">
-                <img src="#">
-                <div class="eventInfo"></div>
+            <div class="liveItem1 module">
+                <img src="images/venue1.jpg">
+                <a href="#"><div class="articleInfo">
+                    <h2>Open Mic at Owl Acoustic Lounge</h2>
+                    <p>Mon, Jan 29</p>
+                    <p>Owl Acoustic Lounge</p>
+                </div></a> 
             </div>
-            <div class="event5">
-                <img src="#">
-                <div class="eventInfo"></div>
+            <div class="liveItem2 module">
+                <img src="images/venue3.jpg">
+                <a href="#"><div class="articleInfo">
+                    <h2>Halestorm with Stone Sour and the Dead Deads</h2>
+                    <p>Thu, Feb 1</p>
+                    <p>Enmax Center</p>
+                </div></a> 
             </div>
-            <div class="event6">
-                <img src="#">
-                <div class="eventInfo"></div>
+            <div class="liveItem3 module">
+                <img src="images/venue2.jpg">
+                <a href="#"><div class="articleInfo">
+                    <h2>James Oldenburg and Paul Holden</h2>
+                    <p>Sat, Feb 3</p>
+                    <p> Streatside Eatery</p>
+                </div></a> 
             </div>
     	</main>
+        <div class="liveAd">ad</div>
     	<footer></footer>
     </body>
 </html>
